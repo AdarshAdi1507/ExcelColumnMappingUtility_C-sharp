@@ -1,0 +1,9 @@
+﻿using ExcelProcessor.Models;
+
+namespace ExcelProcessor.Interfaces
+{
+    public interface IExcelService
+    {
+        Dictionary<string, ExcelRecord> ReadExcelFile(string filePath);
+    }
+}

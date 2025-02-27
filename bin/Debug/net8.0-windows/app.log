@@ -1,0 +1,599 @@
+2025-02-05 11:16:36 - INFO: Successfully loaded 132100 records from C:\Users\Adarsh\Downloads\DrawingExtract_22012025 - SAMPLE ONLY PROLIM.xlsx
+2025-02-05 12:27:05 - INFO: Successfully loaded 132100 records from C:\Users\Adarsh\Downloads\DrawingExtract_22012025 - SAMPLE ONLY PROLIM.xlsx
+2025-02-05 14:47:04 - INFO: Successfully loaded 132100 records from C:\Users\Adarsh\Downloads\DrawingExtract_22012025 - SAMPLE ONLY PROLIM.xlsx
+2025-02-10 13:32:59 - INFO: Successfully loaded 132100 records from C:\Users\Adarsh\Downloads\DrawingExtract_22012025 - SAMPLE ONLY PROLIM.xlsx
+2025-02-11 15:14:16 - ERROR: Error reading XML mapping file
+2025-02-11 15:14:16 - Exception: System.Xml.XmlException: 'Item' is an undeclared prefix. Line 5, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ElementNamespaceLookup()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-11 15:14:23 - ERROR: Error processing files
+2025-02-11 15:14:23 - Exception: System.Xml.XmlException: 'Item' is an undeclared prefix. Line 5, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ElementNamespaceLookup()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 68
+2025-02-11 15:14:25 - ERROR: Error reading XML mapping file
+2025-02-11 15:14:25 - Exception: System.Xml.XmlException: 'Item' is an undeclared prefix. Line 5, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ElementNamespaceLookup()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-11 15:14:31 - ERROR: Error processing files
+2025-02-11 15:14:31 - Exception: System.Xml.XmlException: 'Item' is an undeclared prefix. Line 5, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ElementNamespaceLookup()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 68
+2025-02-11 15:14:32 - ERROR: Error reading XML mapping file
+2025-02-11 15:14:32 - Exception: System.Xml.XmlException: 'Item' is an undeclared prefix. Line 5, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ElementNamespaceLookup()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-11 15:15:03 - ERROR: Error processing files
+2025-02-11 15:15:03 - Exception: System.Xml.XmlException: 'Item' is an undeclared prefix. Line 5, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ElementNamespaceLookup()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 68
+2025-02-11 15:15:09 - ERROR: Error reading XML mapping file
+2025-02-11 15:15:09 - Exception: System.Xml.XmlException: 'Item' is an undeclared prefix. Line 5, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ElementNamespaceLookup()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-11 15:15:10 - ERROR: Error processing files
+2025-02-11 15:15:10 - Exception: System.Xml.XmlException: 'Item' is an undeclared prefix. Line 5, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ElementNamespaceLookup()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 68
+2025-02-11 15:15:14 - ERROR: Error reading XML mapping file
+2025-02-11 15:15:14 - Exception: System.Xml.XmlException: 'Item' is an undeclared prefix. Line 5, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ElementNamespaceLookup()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-11 15:15:42 - ERROR: Error processing files
+2025-02-11 15:15:42 - Exception: System.Xml.XmlException: 'Item' is an undeclared prefix. Line 5, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ElementNamespaceLookup()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 68
+2025-02-11 15:16:47 - ERROR: Error reading XML mapping file
+2025-02-11 15:16:47 - Exception: System.Xml.XmlException: 'Item' is an undeclared prefix. Line 5, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ElementNamespaceLookup()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-11 15:18:54 - ERROR: Error reading XML mapping file
+2025-02-11 15:18:55 - Exception: System.Xml.XmlException: 'Item' is an undeclared prefix. Line 5, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ElementNamespaceLookup()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 25
+2025-02-11 15:18:56 - ERROR: Error processing files
+2025-02-11 15:18:56 - Exception: System.Xml.XmlException: 'Item' is an undeclared prefix. Line 5, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ElementNamespaceLookup()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 25
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 68
+2025-02-11 15:21:19 - INFO: Successfully generated Teamcenter Excel file: C:\Users\Adarsh\Downloads\tccsv_DrawingExtract_22012025 - SAMPLE ONLY PROLIM.xlsx
+2025-02-11 15:24:00 - INFO: Successfully generated Teamcenter Excel file: D:\BRADKEN\excel conversion util\tccsv_DrawingExtract_22012025 - SAMPLE ONLY PROLIM.xlsx
+2025-02-11 15:53:56 - INFO: Successfully generated Teamcenter Excel file: D:\BRADKEN\excel conversion util\tccsv_DrawingExtract_22012025 - SAMPLE ONLY PROLIM.xlsx
+2025-02-13 11:20:30 - INFO: Successfully generated Teamcenter Excel file: D:\BRADKEN\excel conversion util\tccsv_DrawingExtract_22012025 - SAMPLE ONLY PROLIM.xlsx
+2025-02-13 13:17:50 - ERROR: Error reading XML mapping file
+2025-02-13 13:17:50 - Exception: System.Xml.XmlException: The 'RevID' start tag on line 13 position 7 does not match the end tag of 'Item:object_type'. Line 13, position 16.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   at System.Xml.XmlTextReaderImpl.ParseEndElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-13 13:18:04 - ERROR: Error processing files
+2025-02-13 13:18:04 - Exception: System.Xml.XmlException: The 'RevID' start tag on line 13 position 7 does not match the end tag of 'Item:object_type'. Line 13, position 16.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   at System.Xml.XmlTextReaderImpl.ParseEndElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 37
+2025-02-13 13:18:36 - ERROR: Error reading XML mapping file
+2025-02-13 13:18:36 - Exception: System.Xml.XmlException: The 'RevID' start tag on line 13 position 7 does not match the end tag of 'Item:object_type'. Line 13, position 16.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   at System.Xml.XmlTextReaderImpl.ParseEndElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-13 13:20:02 - ERROR: Error processing files
+2025-02-13 13:20:02 - Exception: System.Xml.XmlException: The 'RevID' start tag on line 13 position 7 does not match the end tag of 'Item:object_type'. Line 13, position 16.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   at System.Xml.XmlTextReaderImpl.ParseEndElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 37
+2025-02-13 13:20:08 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\processed_book2.xlsx
+2025-02-13 13:29:11 - ERROR: Error generating Teamcenter Excel file
+2025-02-13 13:29:11 - Exception: System.InvalidOperationException: Error saving file D:\BRADKEN\excel conversion util\processed_book2.xlsx
+ ---> System.Exception: Error overwriting file D:\BRADKEN\excel conversion util\processed_book2.xlsx
+ ---> System.IO.IOException: The process cannot access the file 'D:\BRADKEN\excel conversion util\processed_book2.xlsx' because it is being used by another process.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   at OfficeOpenXml.ExcelPackage.SaveAs(FileInfo file)
+   at ExcelProcessor.Services.ExcelService.ProcessAndGenerateTeamcenterExcel(String sourcePath, Dictionary`2 mappings, String outputPath, Int32 headerRow, Int32 startRow) in D:\BRADKEN\ExcelProcessor\Services\ExcelService.cs:line 81
+2025-02-13 13:29:15 - ERROR: Error processing files
+2025-02-13 13:29:15 - Exception: System.InvalidOperationException: Error saving file D:\BRADKEN\excel conversion util\processed_book2.xlsx
+ ---> System.Exception: Error overwriting file D:\BRADKEN\excel conversion util\processed_book2.xlsx
+ ---> System.IO.IOException: The process cannot access the file 'D:\BRADKEN\excel conversion util\processed_book2.xlsx' because it is being used by another process.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   at OfficeOpenXml.ExcelPackage.SaveAs(FileInfo file)
+   at ExcelProcessor.Services.ExcelService.ProcessAndGenerateTeamcenterExcel(String sourcePath, Dictionary`2 mappings, String outputPath, Int32 headerRow, Int32 startRow) in D:\BRADKEN\ExcelProcessor\Services\ExcelService.cs:line 81
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 61
+2025-02-13 13:29:28 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\processed_book2.xlsx
+2025-02-13 15:18:05 - ERROR: Error reading XML mapping file
+2025-02-13 15:18:05 - Exception: System.Xml.XmlException: 'R' is an undeclared prefix. Line 16, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-13 15:18:12 - ERROR: Error processing files
+2025-02-13 15:18:12 - Exception: System.Xml.XmlException: 'R' is an undeclared prefix. Line 16, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 115
+2025-02-13 15:19:41 - ERROR: Error reading XML mapping file
+2025-02-13 15:19:41 - Exception: System.Xml.XmlException: 'R' is an undeclared prefix. Line 17, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-13 15:19:43 - ERROR: Error processing files
+2025-02-13 15:19:43 - Exception: System.Xml.XmlException: 'R' is an undeclared prefix. Line 17, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 115
+2025-02-13 15:20:25 - ERROR: Error reading XML mapping file
+2025-02-13 15:20:25 - Exception: System.Xml.XmlException: 'R' is an undeclared prefix. Line 17, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-13 15:20:52 - ERROR: Error processing files
+2025-02-13 15:20:52 - Exception: System.Xml.XmlException: 'R' is an undeclared prefix. Line 17, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 115
+2025-02-13 15:20:54 - ERROR: Error reading XML mapping file
+2025-02-13 15:20:54 - Exception: System.Xml.XmlException: 'R' is an undeclared prefix. Line 17, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-13 15:20:55 - ERROR: Error processing files
+2025-02-13 15:20:55 - Exception: System.Xml.XmlException: 'R' is an undeclared prefix. Line 17, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 115
+2025-02-13 15:21:51 - ERROR: Error reading XML mapping file
+2025-02-13 15:21:51 - Exception: System.Xml.XmlException: 'R' is an undeclared prefix. Line 17, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-13 15:23:40 - ERROR: Error processing files
+2025-02-13 15:23:40 - Exception: System.Xml.XmlException: 'R' is an undeclared prefix. Line 17, position 18.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.LookupNamespace(NodeData node)
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 115
+2025-02-13 15:23:50 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-13 15:26:06 - ERROR: Error reading XML mapping file
+2025-02-13 15:26:06 - Exception: System.Exception: HeaderRow must be less than StartRow
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 47
+2025-02-13 15:26:07 - ERROR: Error processing files
+2025-02-13 15:26:07 - Exception: System.Exception: HeaderRow must be less than StartRow
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 47
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 115
+2025-02-13 15:26:34 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-13 15:28:18 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-13 15:30:22 - ERROR: Error reading XML mapping file
+2025-02-13 15:30:22 - Exception: System.Exception: HeaderRow must be less than StartRow
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 47
+2025-02-13 15:30:30 - ERROR: Error processing files
+2025-02-13 15:30:30 - Exception: System.Exception: HeaderRow must be less than StartRow
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 47
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 115
+2025-02-13 15:32:27 - ERROR: Error generating Teamcenter Excel file
+2025-02-13 15:32:27 - Exception: System.InvalidOperationException: Error saving file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.Exception: Error overwriting file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.IO.IOException: The process cannot access the file 'D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx' because it is being used by another process.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   at OfficeOpenXml.ExcelPackage.SaveAs(FileInfo file)
+   at ExcelProcessor.Services.ExcelService.ProcessAndGenerateTeamcenterExcel(String sourcePath, Dictionary`2 mappings, String outputPath, Int32 headerRow, Int32 startRow, String sheetName) in D:\BRADKEN\ExcelProcessor\Services\ExcelService.cs:line 82
+2025-02-13 15:32:31 - ERROR: Error processing files
+2025-02-13 15:32:31 - Exception: System.InvalidOperationException: Error saving file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.Exception: Error overwriting file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.IO.IOException: The process cannot access the file 'D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx' because it is being used by another process.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   at OfficeOpenXml.ExcelPackage.SaveAs(FileInfo file)
+   at ExcelProcessor.Services.ExcelService.ProcessAndGenerateTeamcenterExcel(String sourcePath, Dictionary`2 mappings, String outputPath, Int32 headerRow, Int32 startRow, String sheetName) in D:\BRADKEN\ExcelProcessor\Services\ExcelService.cs:line 82
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 135
+2025-02-13 15:32:39 - ERROR: Error generating Teamcenter Excel file
+2025-02-13 15:32:39 - Exception: System.InvalidOperationException: Error saving file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.Exception: Error overwriting file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.IO.IOException: The process cannot access the file 'D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx' because it is being used by another process.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   at OfficeOpenXml.ExcelPackage.SaveAs(FileInfo file)
+   at ExcelProcessor.Services.ExcelService.ProcessAndGenerateTeamcenterExcel(String sourcePath, Dictionary`2 mappings, String outputPath, Int32 headerRow, Int32 startRow, String sheetName) in D:\BRADKEN\ExcelProcessor\Services\ExcelService.cs:line 82
+2025-02-13 15:32:41 - ERROR: Error processing files
+2025-02-13 15:32:41 - Exception: System.InvalidOperationException: Error saving file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.Exception: Error overwriting file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.IO.IOException: The process cannot access the file 'D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx' because it is being used by another process.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   at OfficeOpenXml.ExcelPackage.SaveAs(FileInfo file)
+   at ExcelProcessor.Services.ExcelService.ProcessAndGenerateTeamcenterExcel(String sourcePath, Dictionary`2 mappings, String outputPath, Int32 headerRow, Int32 startRow, String sheetName) in D:\BRADKEN\ExcelProcessor\Services\ExcelService.cs:line 82
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 135
+2025-02-13 15:32:41 - ERROR: Error reading XML mapping file
+2025-02-13 15:32:41 - Exception: System.Exception: HeaderRow must be less than StartRow
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 47
+2025-02-13 15:32:57 - ERROR: Error processing files
+2025-02-13 15:32:57 - Exception: System.Exception: HeaderRow must be less than StartRow
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 47
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 115
+2025-02-13 15:37:29 - ERROR: Error generating Teamcenter Excel file
+2025-02-13 15:37:29 - Exception: System.InvalidOperationException: Error saving file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.Exception: Error overwriting file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.IO.IOException: The process cannot access the file 'D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx' because it is being used by another process.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   at OfficeOpenXml.ExcelPackage.SaveAs(FileInfo file)
+   at ExcelProcessor.Services.ExcelService.ProcessAndGenerateTeamcenterExcel(String sourcePath, Dictionary`2 mappings, String outputPath, Int32 headerRow, Int32 startRow, String sheetName) in D:\BRADKEN\ExcelProcessor\Services\ExcelService.cs:line 82
+2025-02-13 15:37:37 - ERROR: Error processing files
+2025-02-13 15:37:37 - Exception: System.InvalidOperationException: Error saving file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.Exception: Error overwriting file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.IO.IOException: The process cannot access the file 'D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx' because it is being used by another process.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   at OfficeOpenXml.ExcelPackage.SaveAs(FileInfo file)
+   at ExcelProcessor.Services.ExcelService.ProcessAndGenerateTeamcenterExcel(String sourcePath, Dictionary`2 mappings, String outputPath, Int32 headerRow, Int32 startRow, String sheetName) in D:\BRADKEN\ExcelProcessor\Services\ExcelService.cs:line 82
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 135
+2025-02-13 15:37:49 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-13 18:14:14 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-19 17:25:01 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-19 17:26:43 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-19 17:26:52 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-19 18:11:01 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-19 18:14:49 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-19 18:14:57 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-19 18:15:54 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-19 18:16:57 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-19 18:19:19 - ERROR: Error reading XML mapping file
+2025-02-19 18:19:19 - Exception: System.Xml.XmlException: The 'R:RevReleaseDate' start tag on line 20 position 6 does not match the end tag of 'RevReleaseDate'. Line 20, position 26.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   at System.Xml.XmlTextReaderImpl.ParseEndElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-19 18:19:24 - ERROR: Error processing files
+2025-02-19 18:19:24 - Exception: System.Xml.XmlException: The 'R:RevReleaseDate' start tag on line 20 position 6 does not match the end tag of 'RevReleaseDate'. Line 20, position 26.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   at System.Xml.XmlTextReaderImpl.ParseEndElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 115
+2025-02-19 18:19:43 - ERROR: Error reading XML mapping file
+2025-02-19 18:19:43 - Exception: System.Xml.XmlException: The 'R:BOM.RelatedDrawings' start tag on line 24 position 6 does not match the end tag of 'RevDesc'. Line 24, position 32.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   at System.Xml.XmlTextReaderImpl.ParseEndElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-19 18:19:45 - ERROR: Error processing files
+2025-02-19 18:19:45 - Exception: System.Xml.XmlException: The 'R:BOM.RelatedDrawings' start tag on line 24 position 6 does not match the end tag of 'RevDesc'. Line 24, position 32.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   at System.Xml.XmlTextReaderImpl.ParseEndElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 115
+2025-02-19 18:19:50 - ERROR: Error reading XML mapping file
+2025-02-19 18:19:50 - Exception: System.Xml.XmlException: The 'R:BOM.RelatedDrawings' start tag on line 24 position 6 does not match the end tag of 'RevDesc'. Line 24, position 32.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   at System.Xml.XmlTextReaderImpl.ParseEndElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+2025-02-19 18:19:53 - ERROR: Error processing files
+2025-02-19 18:19:53 - Exception: System.Xml.XmlException: The 'R:BOM.RelatedDrawings' start tag on line 24 position 6 does not match the end tag of 'RevDesc'. Line 24, position 32.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   at System.Xml.XmlTextReaderImpl.ParseEndElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 24
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 115
+2025-02-27 12:06:07 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-27 12:09:37 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-27 12:12:37 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-27 12:20:19 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-02-27 12:28:48 - ERROR: Error generating Teamcenter Excel file
+2025-02-27 12:28:48 - Exception: System.InvalidOperationException: Error saving file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.Exception: Error overwriting file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.IO.IOException: The process cannot access the file 'D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx' because it is being used by another process.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   at OfficeOpenXml.ExcelPackage.SaveAs(FileInfo file)
+   at ExcelProcessor.Services.ExcelService.ProcessAndGenerateTeamcenterExcel(String sourcePath, Dictionary`2 mappings, String outputPath, Int32 headerRow, Int32 startRow, String sheetName) in D:\BRADKEN\ExcelProcessor\Services\ExcelService.cs:line 90
+2025-02-27 12:28:56 - ERROR: Error processing files
+2025-02-27 12:28:56 - Exception: System.InvalidOperationException: Error saving file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.Exception: Error overwriting file D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+ ---> System.IO.IOException: The process cannot access the file 'D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx' because it is being used by another process.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   --- End of inner exception stack trace ---
+   at OfficeOpenXml.ExcelPackage.Save()
+   at OfficeOpenXml.ExcelPackage.SaveAs(FileInfo file)
+   at ExcelProcessor.Services.ExcelService.ProcessAndGenerateTeamcenterExcel(String sourcePath, Dictionary`2 mappings, String outputPath, Int32 headerRow, Int32 startRow, String sheetName) in D:\BRADKEN\ExcelProcessor\Services\ExcelService.cs:line 90
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 135
+2025-02-27 12:29:22 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx

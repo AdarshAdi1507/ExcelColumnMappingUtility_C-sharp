@@ -1,0 +1,65 @@
+using ExcelProcessor.Interfaces;
+using ExcelProcessor.Models;
+using ExcelProcessor.Services;
+using System.Windows.Forms;
+
+namespace ExcelProcessor.Forms
+{
+    public partial class Form1 : Form
+    {
+        private readonly IExcelService _excelService;
+        private readonly ILogService _logService;
+        private Dictionary<string, ExcelRecord> _records;
+
+        public Form1()
+        {
+            InitializeComponent();
+            _logService = new LogService();
+            _excelService = new ExcelService(_logService);
+            _records = new Dictionary<string, ExcelRecord>();
+        }
+
+        private void btnBrowse_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                openFileDialog.Filter = "Excel Files|*.xlsx;*.xls";
+                openFileDialog.Title = "Select an Excel File";
+
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    txtFilePath.Text = openFileDialog.FileName;
+                }
+            }
+        }
+
+        private void btnLoad_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtFilePath.Text))
+            {
+                MessageBox.Show("Please select an Excel file first.", "Warning",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            try
+            {
+                Cursor = Cursors.WaitCursor;
+                _records = _excelService.ReadExcelFile(txtFilePath.Text);
+                dataGridView1.DataSource = _records.Values.ToList();
+                lblStatus.Text = $"Loaded {_records.Count} records successfully.";
+                _logService.LogInformation($"Successfully loaded {_records.Count} records from {txtFilePath.Text}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading Excel file: {ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                _logService.LogError("Error loading Excel file", ex);
+            }
+            finally
+            {
+                Cursor = Cursors.Default;
+            }
+        }
+    }
+}

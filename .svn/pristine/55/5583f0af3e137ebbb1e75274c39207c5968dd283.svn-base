@@ -1,0 +1,88 @@
+﻿namespace ExcelProcessor.Forms
+{
+    partial class Form1
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.txtFilePath = new System.Windows.Forms.TextBox();
+            this.btnBrowse = new System.Windows.Forms.Button();
+            this.btnLoad = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.lblStatus = new System.Windows.Forms.Label();
+
+            // txtFilePath
+            this.txtFilePath.Location = new System.Drawing.Point(12, 12);
+            this.txtFilePath.Name = "txtFilePath";
+            this.txtFilePath.Size = new System.Drawing.Size(500, 23);
+            this.txtFilePath.TabIndex = 0;
+            this.txtFilePath.ReadOnly = true;
+
+            // btnBrowse
+            this.btnBrowse.Location = new System.Drawing.Point(518, 11);
+            this.btnBrowse.Name = "btnBrowse";
+            this.btnBrowse.Size = new System.Drawing.Size(75, 23);
+            this.btnBrowse.TabIndex = 1;
+            this.btnBrowse.Text = "Browse";
+            this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
+
+            // btnLoad
+            this.btnLoad.Location = new System.Drawing.Point(599, 11);
+            this.btnLoad.Name = "btnLoad";
+            this.btnLoad.Size = new System.Drawing.Size(75, 23);
+            this.btnLoad.TabIndex = 2;
+            this.btnLoad.Text = "Load";
+            this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
+
+            // dataGridView1
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 41);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(760, 400);
+            this.dataGridView1.TabIndex = 3;
+
+            // lblStatus
+            this.lblStatus.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left));
+            this.lblStatus.AutoSize = true;
+            this.lblStatus.Location = new System.Drawing.Point(12, 444);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(0, 15);
+            this.lblStatus.TabIndex = 4;
+
+            // Form1
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(784, 461);
+            this.Controls.Add(this.lblStatus);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btnLoad);
+            this.Controls.Add(this.btnBrowse);
+            this.Controls.Add(this.txtFilePath);
+            this.MinimumSize = new System.Drawing.Size(800, 500);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Excel Processor";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+        }
+
+        private System.Windows.Forms.TextBox txtFilePath;
+        private System.Windows.Forms.Button btnBrowse;
+        private System.Windows.Forms.Button btnLoad;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label lblStatus;
+    }
+}

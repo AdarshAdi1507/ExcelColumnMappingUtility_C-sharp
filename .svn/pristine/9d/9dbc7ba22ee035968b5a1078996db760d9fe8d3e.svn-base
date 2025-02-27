@@ -1,0 +1,68 @@
+﻿using OfficeOpenXml;
+using ExcelProcessor.Models;
+using ExcelProcessor.Enums;
+using ExcelProcessor.Interfaces;
+
+namespace ExcelProcessor.Services
+{
+    public class ExcelService : IExcelService
+    {
+        private readonly ILogService _logService;
+
+        public ExcelService(ILogService logService)
+        {
+            _logService = logService;
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+        }
+
+        public Dictionary<string, ExcelRecord> ReadExcelFile(string filePath)
+        {
+            var records = new Dictionary<string, ExcelRecord>();
+
+            try
+            {
+                using (var package = new ExcelPackage(new FileInfo(filePath)))
+                {
+                    var worksheet = package.Workbook.Worksheets[0];
+                    int rowCount = worksheet.Dimension.Rows;
+
+                    for (int row = 2; row <= rowCount; row++) // Skip header row
+                    {
+                        var record = new ExcelRecord
+                        {
+                            DrawingNumber = worksheet.Cells[row, (int)ExcelHeaders.DrawingNumber].Text,
+                            Revision = worksheet.Cells[row, (int)ExcelHeaders.Revision].Text,
+                            Title = worksheet.Cells[row, (int)ExcelHeaders.Title].Text,
+                            ProjectNo = worksheet.Cells[row, (int)ExcelHeaders.ProjectNo].Text,
+                            RevisionText = worksheet.Cells[row, (int)ExcelHeaders.RevisionText].Text,
+                            RailPart = worksheet.Cells[row, (int)ExcelHeaders.RailPart].Text,
+                            Part = worksheet.Cells[row, (int)ExcelHeaders.Part].Text,
+                            RemotePath = worksheet.Cells[row, (int)ExcelHeaders.RemotePath].Text,
+                            FileName1 = worksheet.Cells[row, (int)ExcelHeaders.FileName1].Text,
+                            FileName2 = worksheet.Cells[row, (int)ExcelHeaders.FileName2].Text,
+                            FileName3 = worksheet.Cells[row, (int)ExcelHeaders.FileName3].Text,
+                            FileName4 = worksheet.Cells[row, (int)ExcelHeaders.FileName4].Text,
+                            FileName5 = worksheet.Cells[row, (int)ExcelHeaders.FileName5].Text,
+                            FileName6 = worksheet.Cells[row, (int)ExcelHeaders.FileName6].Text,
+                            Supersedes = worksheet.Cells[row, (int)ExcelHeaders.Supersedes].Text,
+                            MigratedFrom = worksheet.Cells[row, (int)ExcelHeaders.MigratedFrom].Text
+                        };
+
+                        string key = $"{record.DrawingNumber}_{record.Revision}";
+                        if (!records.ContainsKey(key))
+                        {
+                            records.Add(key, record);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                _logService.LogError("Error reading Excel file", ex);
+                throw;
+            }
+
+            return records;
+        }
+    }
+}

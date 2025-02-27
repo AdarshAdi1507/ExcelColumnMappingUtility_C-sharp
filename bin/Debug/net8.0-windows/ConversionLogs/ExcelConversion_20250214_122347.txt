@@ -1,0 +1,12 @@
+[INFO] 2025-02-14 12:24:09.415 - === Excel Conversion Process Started ===
+[INFO] 2025-02-14 12:24:09.420 - Start Time: 2/14/2025 12:24:09 PM
+[INFO] 2025-02-14 12:24:09.421 - Input File: D:\BRADKEN\excel conversion util\test\Data_Migration_150% mBOM.xlsx
+[INFO] 2025-02-14 12:24:09.421 - Selected Sheet: Agile BOM
+[INFO] 2025-02-14 12:24:14.823 - 
+Process Completed at: 2/14/2025 12:24:14 PM
+[INFO] 2025-02-14 12:24:14.823 - Total Time Taken: 00:00:05.407
+[INFO] 2025-02-14 12:24:14.824 - Total Rows Processed: 36169
+[INFO] 2025-02-14 12:24:14.824 - Output File Location: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+[INFO] 2025-02-14 12:24:14.824 - === Process Completed Successfully ===
+
+[INFO] 2025-02-14 12:24:14.894 - Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
