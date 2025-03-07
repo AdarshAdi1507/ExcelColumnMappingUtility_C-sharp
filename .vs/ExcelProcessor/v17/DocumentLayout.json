@@ -7,36 +7,40 @@
       "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:services\\xmlmappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\interfaces\\ixmlmappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:interfaces\\ixmlmappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\services\\excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:services\\excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\services\\excelprocesslogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:services\\excelprocesslogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\forms\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:forms\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\interfaces\\ilogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:interfaces\\ilogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\interfaces\\iexcelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:interfaces\\iexcelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|D:\\BRADKEN\\ExcelProcessor\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\services\\excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:services\\excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\interfaces\\ilogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:interfaces\\ilogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\forms\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:forms\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|D:\\BRADKEN\\ExcelProcessor\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\models\\excelrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\interfaces\\ixmlmappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|solutionrelative:interfaces\\ixmlmappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9254DC73-0D56-469B-B996-5D81D47D9387}|ExcelProcessor.csproj|d:\\bradken\\excelprocessor\\enums\\excelheaders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -92,7 +92,7 @@
               "RelativeDocumentMoniker": "Services\\ExcelProcessLogger.cs",
               "ToolTip": "D:\\BRADKEN\\ExcelProcessor\\Services\\ExcelProcessLogger.cs",
               "RelativeToolTip": "Services\\ExcelProcessLogger.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAiwIAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T06:51:24.653Z",
               "EditorCaption": ""
@@ -105,26 +105,27 @@
               "RelativeDocumentMoniker": "Services\\XmlMappingService.cs",
               "ToolTip": "D:\\BRADKEN\\ExcelProcessor\\Services\\XmlMappingService.cs",
               "RelativeToolTip": "Services\\XmlMappingService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAqwFMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAiwHMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T09:41:31.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "IXmlMappingService.cs",
               "DocumentMoniker": "D:\\BRADKEN\\ExcelProcessor\\Interfaces\\IXmlMappingService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IXmlMappingService.cs",
               "ToolTip": "D:\\BRADKEN\\ExcelProcessor\\Interfaces\\IXmlMappingService.cs",
               "RelativeToolTip": "Interfaces\\IXmlMappingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T09:39:55.947Z"
+              "WhenOpened": "2025-02-11T09:39:55.947Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\BRADKEN\\ExcelProcessor\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -136,28 +137,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LogService.cs",
               "DocumentMoniker": "D:\\BRADKEN\\ExcelProcessor\\Services\\LogService.cs",
               "RelativeDocumentMoniker": "Services\\LogService.cs",
               "ToolTip": "D:\\BRADKEN\\ExcelProcessor\\Services\\LogService.cs",
               "RelativeToolTip": "Services\\LogService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAUwCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwCkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T05:42:59.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "ILogService.cs",
               "DocumentMoniker": "D:\\BRADKEN\\ExcelProcessor\\Interfaces\\ILogService.cs",
               "RelativeDocumentMoniker": "Interfaces\\ILogService.cs",
               "ToolTip": "D:\\BRADKEN\\ExcelProcessor\\Interfaces\\ILogService.cs",
               "RelativeToolTip": "Interfaces\\ILogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T05:41:24.475Z"
+              "WhenOpened": "2025-02-05T05:41:24.475Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -167,9 +169,10 @@
               "RelativeDocumentMoniker": "Interfaces\\IExcelService.cs",
               "ToolTip": "D:\\BRADKEN\\ExcelProcessor\\Interfaces\\IExcelService.cs",
               "RelativeToolTip": "Interfaces\\IExcelService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T05:40:12.119Z"
+              "WhenOpened": "2025-02-05T05:40:12.119Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -183,13 +186,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ExcelService.cs",
               "DocumentMoniker": "D:\\BRADKEN\\ExcelProcessor\\Services\\ExcelService.cs",
               "RelativeDocumentMoniker": "Services\\ExcelService.cs",
               "ToolTip": "D:\\BRADKEN\\ExcelProcessor\\Services\\ExcelService.cs",
               "RelativeToolTip": "Services\\ExcelService.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAAAGEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T12:19:58.435Z",
               "EditorCaption": ""
@@ -208,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ExcelRecord.cs",
               "DocumentMoniker": "D:\\BRADKEN\\ExcelProcessor\\Models\\ExcelRecord.cs",
               "RelativeDocumentMoniker": "Models\\ExcelRecord.cs",
@@ -220,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\BRADKEN\\ExcelProcessor\\Forms\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Forms\\Form1.Designer.cs",
@@ -228,18 +231,17 @@
               "RelativeToolTip": "Forms\\Form1.Designer.cs",
               "ViewState": "AgIAAFQAAAAAAAAAAAAkwHkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:21:11.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T09:21:11.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\BRADKEN\\ExcelProcessor\\Forms\\Form1.cs",
               "RelativeDocumentMoniker": "Forms\\Form1.cs",
               "ToolTip": "D:\\BRADKEN\\ExcelProcessor\\Forms\\Form1.cs",
               "RelativeToolTip": "Forms\\Form1.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAYwKwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAiwKYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T09:15:48.085Z",
               "EditorCaption": ""
@@ -270,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\BRADKEN\\ExcelProcessor\\Forms\\Form1.cs",
               "RelativeDocumentMoniker": "Forms\\Form1.cs",

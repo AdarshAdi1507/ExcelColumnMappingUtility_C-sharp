@@ -1,5 +1,4 @@
-﻿// ExcelProcessLogger.cs
-using System;
+﻿using System;
 using System.IO;
 using System.Text;
 using System.Diagnostics;
@@ -66,20 +65,20 @@ namespace ExcelProcessor.Services
         public void LogRowProcessed()
         {
             _processedRows++;
-            if (_processedRows % 1000 == 0) // Log every 100 rows to avoid too frequent writes
+            if (_processedRows % 1000 == 0) // Log every 1000 rows to avoid too frequent writes
             {
                 LogInformation($"Processed {_processedRows} rows...");
             }
         }
 
-        public void EndProcess(string outputPath)
+        public void EndProcess(string outputDirectory)
         {
             _timer.Stop();
             LogInformation("\n=== Process Summary ===");
             LogInformation($"Process Completed at: {DateTime.Now}");
             LogInformation($"Total Time Taken: {_timer.Elapsed.ToString(@"hh\:mm\:ss\.fff")}");
             LogInformation($"Total Rows Processed: {_processedRows}");
-            LogInformation($"Output File Location: {outputPath}");
+            LogInformation($"Output Directory: {outputDirectory}");
             LogInformation("=== Process Completed Successfully ===\n");
         }
 

@@ -1,4 +1,3 @@
-// Form1.cs - Replace the entire content of your existing Form1.cs
 using System;
 using System.Windows.Forms;
 using System.IO;
@@ -7,6 +6,7 @@ using ExcelProcessor.Services;
 using System.Drawing;
 using OfficeOpenXml;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace ExcelProcessor.Forms
 {
@@ -84,8 +84,8 @@ namespace ExcelProcessor.Forms
         private void ValidateInputs()
         {
             btnProcess.Enabled = !string.IsNullOrEmpty(txtExcelPath.Text) &&
-                               !string.IsNullOrEmpty(txtXmlPath.Text) &&
-                               cmbSheets.SelectedIndex >= 0;
+                                !string.IsNullOrEmpty(txtXmlPath.Text) &&
+                                cmbSheets.SelectedIndex >= 0;
         }
 
         private async void btnProcess_Click(object sender, EventArgs e)
@@ -112,7 +112,7 @@ namespace ExcelProcessor.Forms
                 progressBar.Value = 20;
 
                 // Read mapping configuration
-                var (mappings, headerRow, startRow) = _xmlMappingService.ReadMappingConfiguration(txtXmlPath.Text);
+                var (outputMappings, headerRow, startRow) = _xmlMappingService.ReadMappingConfiguration(txtXmlPath.Text);
 
                 lblStatus.Text = "Validating source file...";
                 progressBar.Value = 40;
@@ -121,31 +121,25 @@ namespace ExcelProcessor.Forms
                 int totalColumns = _excelService.GetTotalColumns(txtExcelPath.Text, cmbSheets.SelectedItem.ToString());
 
                 // Validate configuration
-                _xmlMappingService.ValidateConfiguration(mappings, headerRow, startRow, totalColumns);
+                _xmlMappingService.ValidateConfiguration(outputMappings, totalColumns);
 
                 lblStatus.Text = "Processing Excel file...";
                 progressBar.Value = 60;
 
-                // Process and generate new Excel
-                string outputPath = Path.Combine(
-                    Path.GetDirectoryName(txtExcelPath.Text),
-                    $"processed_{Path.GetFileNameWithoutExtension(txtExcelPath.Text)}.xlsx"
-                );
-
-                _excelService.ProcessAndGenerateTeamcenterExcel(
+                // Process and generate output files
+                _excelService.ProcessAndGenerateOutputFiles(
                     txtExcelPath.Text,
-                    mappings,
-                    outputPath,
+                    outputMappings,
                     headerRow,
                     startRow,
                     cmbSheets.SelectedItem.ToString()
                 );
 
                 progressBar.Value = 100;
-                lblStatus.Text = $"Successfully generated Excel file: {Path.GetFileName(outputPath)}";
-                _logService.LogInformation($"Successfully generated Excel file: {outputPath}");
+                lblStatus.Text = $"Successfully generated {outputMappings.Count} output file(s) in {Path.GetDirectoryName(txtExcelPath.Text)}";
+                _logService.LogInformation($"Successfully generated {outputMappings.Count} output file(s)");
 
-                MessageBox.Show("Excel file generated successfully!", "Success",
+                MessageBox.Show($"Successfully generated {outputMappings.Count} output file(s)!", "Success",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)

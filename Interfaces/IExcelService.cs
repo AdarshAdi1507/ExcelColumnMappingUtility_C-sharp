@@ -1,16 +1,13 @@
-﻿using System.Collections.Generic;
-
-namespace ExcelProcessor.Interfaces
+﻿using ExcelProcessor.Services;
+namespace ExcelProcessor.Interfaces { 
+public interface IExcelService
 {
-    public interface IExcelService
-    {
-        int GetTotalColumns(string filePath, string sheetName);
-        void ProcessAndGenerateTeamcenterExcel(
-            string sourcePath,
-            Dictionary<string, int> mappings,
-            string outputPath,
-            int headerRow,
-            int startRow,
-            string sheetName);
-    }
-}   
+    int GetTotalColumns(string filePath, string sheetName);
+    void ProcessAndGenerateOutputFiles(
+        string sourcePath,
+        List<OutputMapping> outputMappings,
+        int headerRow,
+        int startRow,
+        string sheetName);
+}
+}

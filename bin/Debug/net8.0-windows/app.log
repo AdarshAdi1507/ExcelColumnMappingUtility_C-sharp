@@ -597,3 +597,105 @@
    at ExcelProcessor.Services.ExcelService.ProcessAndGenerateTeamcenterExcel(String sourcePath, Dictionary`2 mappings, String outputPath, Int32 headerRow, Int32 startRow, String sheetName) in D:\BRADKEN\ExcelProcessor\Services\ExcelService.cs:line 90
    at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 135
 2025-02-27 12:29:22 - INFO: Successfully generated Excel file: D:\BRADKEN\excel conversion util\test\processed_Data_Migration_150% mBOM.xlsx
+2025-03-07 13:39:06 - ERROR: Error reading XML mapping file
+2025-03-07 13:39:06 - Exception: System.Xml.XmlException: Name cannot begin with the '"' character, hexadecimal value 0x22. Line 11, position 22.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ParseAttributes()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 31
+2025-03-07 13:39:15 - ERROR: Error processing files
+2025-03-07 13:39:15 - Exception: System.Xml.XmlException: Name cannot begin with the '"' character, hexadecimal value 0x22. Line 11, position 22.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ParseAttributes()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 31
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 115
+2025-03-07 13:39:29 - ERROR: Error reading XML mapping file
+2025-03-07 13:39:29 - Exception: System.Xml.XmlException: Name cannot begin with the '"' character, hexadecimal value 0x22. Line 11, position 22.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ParseAttributes()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 31
+2025-03-07 13:39:37 - ERROR: Error processing files
+2025-03-07 13:39:37 - Exception: System.Xml.XmlException: Name cannot begin with the '"' character, hexadecimal value 0x22. Line 11, position 22.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ParseAttributes()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 31
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 115
+2025-03-07 13:40:26 - ERROR: Error reading XML mapping file
+2025-03-07 13:40:26 - Exception: System.Xml.XmlException: Name cannot begin with the '"' character, hexadecimal value 0x22. Line 11, position 22.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ParseAttributes()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 31
+2025-03-07 13:43:53 - ERROR: Error processing files
+2025-03-07 13:43:53 - Exception: System.Xml.XmlException: Name cannot begin with the '"' character, hexadecimal value 0x22. Line 11, position 22.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ParseAttributes()
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 31
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 115
+2025-03-07 13:43:54 - ERROR: Error reading XML mapping file
+2025-03-07 13:43:54 - Exception: System.Exception: HeaderRow must be a positive integer
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 44
+2025-03-07 13:43:56 - ERROR: Error processing files
+2025-03-07 13:43:56 - Exception: System.Exception: HeaderRow must be a positive integer
+   at ExcelProcessor.Services.XmlMappingService.ReadMappingConfiguration(String xmlPath) in D:\BRADKEN\ExcelProcessor\Services\XmlMappingService.cs:line 44
+   at ExcelProcessor.Forms.Form1.btnProcess_Click(Object sender, EventArgs e) in D:\BRADKEN\ExcelProcessor\Forms\Form1.cs:line 115
+2025-03-07 13:44:26 - INFO: Generating output file: IPS_ITEM_INPUT.txt
+2025-03-07 13:44:26 - INFO: Successfully generated file: C:\Users\Adarsh\Downloads\IPS_ITEM_INPUT.txt
+2025-03-07 13:44:26 - INFO: Generating output file: IPS_DS_INPUT.txt
+2025-03-07 13:44:26 - INFO: Successfully generated file: C:\Users\Adarsh\Downloads\IPS_DS_INPUT.txt
+2025-03-07 13:44:26 - INFO: Successfully generated 2 output file(s)
+2025-03-07 13:46:22 - INFO: Generating output file: IPS_ITEM_INPUT.csv
+2025-03-07 13:46:22 - INFO: Successfully generated file: C:\Users\Adarsh\Downloads\IPS_ITEM_INPUT.csv
+2025-03-07 13:46:22 - INFO: Generating output file: IPS_DS_INPUT.csv
+2025-03-07 13:46:22 - INFO: Successfully generated file: C:\Users\Adarsh\Downloads\IPS_DS_INPUT.csv
+2025-03-07 13:46:22 - INFO: Successfully generated 2 output file(s)
+2025-03-07 15:20:55 - INFO: Generating output file: IPS_ITEM_INPUT.csv
+2025-03-07 15:20:55 - INFO: Successfully generated file: C:\Users\Adarsh\Downloads\IPS_ITEM_INPUT.csv
+2025-03-07 15:20:55 - INFO: Generating output file: IPS_DS_INPUT.csv
+2025-03-07 15:20:55 - INFO: Successfully generated file: C:\Users\Adarsh\Downloads\IPS_DS_INPUT.csv
+2025-03-07 15:20:55 - INFO: Successfully generated 2 output file(s)
+2025-03-07 15:21:14 - INFO: Generating output file: IPS_ITEM_INPUT.txt
+2025-03-07 15:21:14 - INFO: Successfully generated file: C:\Users\Adarsh\Downloads\IPS_ITEM_INPUT.txt
+2025-03-07 15:21:14 - INFO: Generating output file: IPS_DS_INPUT.txt
+2025-03-07 15:21:14 - INFO: Successfully generated file: C:\Users\Adarsh\Downloads\IPS_DS_INPUT.txt
+2025-03-07 15:21:14 - INFO: Successfully generated 2 output file(s)

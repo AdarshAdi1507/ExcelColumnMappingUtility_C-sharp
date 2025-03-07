@@ -1,10 +1,9 @@
-﻿using System.Collections.Generic;
-
+﻿using ExcelProcessor.Services;
 namespace ExcelProcessor.Interfaces
 {
     public interface IXmlMappingService
     {
-        (Dictionary<string, int> mappings, int headerRow, int startRow) ReadMappingConfiguration(string xmlPath);
-        void ValidateConfiguration(Dictionary<string, int> mappings, int headerRow, int startRow, int totalColumns);
+        (List<OutputMapping> outputMappings, int headerRow, int startRow) ReadMappingConfiguration(string xmlPath);
+        void ValidateConfiguration(List<OutputMapping> outputMappings, int totalColumns);
     }
 }
