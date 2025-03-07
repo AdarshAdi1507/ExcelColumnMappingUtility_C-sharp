@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CONFIG xmlns:Item="http://tempuri.org/item" 
+       xmlns:ItemRevision="http://tempuri.org/itemrevision"
+       xmlns:Dataset="http://tempuri.org/dataset"
+       xmlns:ImanFile="http://tempuri.org/imanfile"
+       xmlns:ImanRelation="http://tempuri.org/imanrelation">
+    <CSV2TCXML>
+        <HeaderRow>1</HeaderRow>
+		<StartRow>2</StartRow>
+		<OUTPUTS>
+            <Mapping Filename="IPS_ITEM_INPUT.txt" delimeter="~">
+                <ItemID>1</ItemID>
+                <RevID>2</RevID>
+                <Name>3</Name>
+                <Desc>6</Desc>
+				<ItemType>5</ItemType>
+				<Owner>11</Owner>
+				<Group>12</Group>
+				<RevName>4</RevName>
+				<RevDesc>6</RevDesc>
+				<CreateDate>13</CreateDate>
+				<LastModBy>11</LastModBy>
+            </Mapping>
+			<Mapping Filename="IPS_DS_INPUT.txt" delimeter="~">
+               <ItemID>1</ItemID>
+                <RevID>2</RevID>
+                <DsetType>8</DsetType>
+                <DsetName>9</DsetName>
+				<DsetDesc>9</DsetDesc>
+				<FileRef>15</FileRef>
+				<File>7</File>
+				<RelationName>10</RelationName>
+				<LastModBy>11</LastModBy>
+            </Mapping>
+        </OUTPUTS>
+    </CSV2TCXML>
+</CONFIG>
